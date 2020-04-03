@@ -37,6 +37,6 @@ public  static  void  main(String [] args)
     	System.out.println(iterator.next());
     }
 	User[] userss= listUserss.toArray(new User[0]);
-	System.out.println(user);
+	System.out.println(userss);
 }
 }
