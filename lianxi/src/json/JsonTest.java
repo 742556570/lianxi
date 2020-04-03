@@ -5,8 +5,6 @@ import java.util.Arrays;
 import java.util.Iterator;
 import java.util.List;
 
-import org.omg.PortableInterceptor.SYSTEM_EXCEPTION;
-
 import com.google.gson.Gson;
 
 public class JsonTest {
@@ -39,6 +37,6 @@ public  static  void  main(String [] args)
     	System.out.println(iterator.next());
     }
 	User[] userss= listUserss.toArray(new User[0]);
-	System.out.println(userss);
+	System.out.println(userss.toString());
 }
 }

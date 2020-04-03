@@ -8,5 +8,6 @@
 	</classpathentry>
 	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
 	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
+	<classpathentry kind="lib" path="D:/Tomcat2/短信验证码/WebContent/WEB-INF/lib/gson-2.7.jar"/>
 	<classpathentry kind="output" path="build/classes"/>
 </classpath>
