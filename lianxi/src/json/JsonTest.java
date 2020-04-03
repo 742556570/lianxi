@@ -24,6 +24,7 @@ public  static  void  main(String [] args)
     list.add(new User(113,"渣渣辉","男","123456789","25"));
     list.add(new User(114,"渣渣辉","男","123456789","25"));
     list.add(new User(115,"渣渣辉","男","123456789","25"));
+    list.add(new User(116,"渣渣辉","男","123456789","27"));
     String  str1=gson.toJson(list);
     System.out.println(str1);
 	User  [] userList=(User[]) gson.fromJson(str1, User[].class);
